@@ -39,9 +39,9 @@ class User < ApplicationRecord
     update_attribute(:remember_digest, nil)
   end
   
-  # Activates an account.
+    # Activates an account.
   def activate
-    update_attribute(:activated, true)
+    update_attribute(:activated,    true)
     update_attribute(:activated_at, Time.zone.now)
   end
   
@@ -56,7 +56,11 @@ class User < ApplicationRecord
     def downcase_email
       self.email = email.downcase
     end
+<<<<<<< HEAD
 
+=======
+    
+>>>>>>> account-activation1
     # Creates and assigns the activation token and digest.
     def create_activation_digest
       self.activation_token  = User.new_token

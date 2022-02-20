@@ -37,7 +37,7 @@ If the test suite passes, you'll be ready to run the app in a local server:
 $ rails server
 ```
 
-This app is deployed on Heroku: [*https://dry-tundra-08670.herokuapp.com/*](https://dry-tundra-08670.herokuapp.com)
+This app is deployed on Heroku: [*https://dry-tundra-08670.herokuapp.com*](https://dry-tundra-08670.herokuapp.com)
 
 For more information, see the
 [*Ruby on Rails Tutorial* book](https://www.railstutorial.org/book).

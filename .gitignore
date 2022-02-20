@@ -28,6 +28,4 @@
 # Ignore uploaded test images.
 /public/uploads
 
-/credentials1
-
-/credentials2
+/config/local_env.yml
